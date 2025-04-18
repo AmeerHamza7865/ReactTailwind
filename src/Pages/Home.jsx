@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import Gallery from "../components/Gallery";
 import Slider from "../components/Slider";
 import Header from "../components/Header";
+import Team from "../components/Team";
 
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
             <Card />
           </div>
         </div>
-  
+        <Team/>
         <div className='container mx-auto px-4 py-8'>
           <Gallery />
         </div>
